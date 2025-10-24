@@ -1,0 +1,63 @@
+# Question 4
+
+def get_names(student_dict):
+    result=[]
+    #create empty list
+    for key in dict
+    for key in student_names :
+        list_names.append(student_dict[techId])
+        return.list_names
+
+#Question 5
+def find_oldest(persons):
+    oldest_name=""
+    oldest_name=-1
+    for name in person:
+     oldest_age=people[names]
+     oldest_name=name
+     
+     dict0 ={}
+  dict
+
+
+# Question 6   
+def letter_count(word):
+  letter_dict={}
+  for letter in word:
+      if letter not in letter_dict:
+         if letter_dict[letter] = 1
+      else:
+        letter_dict[letter] +=1
+
+  return letter_dict
+
+#Question 7
+
+receipt={}
+receipt['Side Salad']=6
+receipt["Chicken Parm"]=12
+receipt["Cookies"]=3
+
+print(receipt)
+
+def get_cost(receipt):
+   total_cost=o
+   for item in receipt:
+      total_cost += receipt[item]
+      return total_cost
+print(get_cost(receipt))
+dict_in_dict_in_dict= {dict_}
+print(dict_in_dict_in_dict)
+   
+   
+   
+
+
+
+
+
+
+      
+
+       
+

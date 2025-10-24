@@ -1,0 +1,43 @@
+'''
+def hailstone_sequence(n):
+    seq=[n]
+    while n != 1:
+        if n % 2 == 0:
+            n = n / 2
+        else:
+            n= n*3 + 1
+        seq.append(n)
+    return seq  
+
+
+print(hailstone_sequence(25))
+'''
+
+#question 9
+
+
+def count(list_of_card):
+   points=0
+for card in cards:
+        if str(card) in["2","3","4","5","6"]:
+         points+=1
+        elif card in["10","j","q","k","a"  ] :
+            points-=1
+            return points
+    
+#question 19
+def is_acronyme(s,word):
+    acronym=""
+     for word in words:
+       
+        if not word:
+            return False
+        acronym += word[0]   # take first character
+    
+    return acronym == s
+           #check the length of s 
+           #extract the first letter
+           #compare each word
+           # abc =="abc"
+        
+    

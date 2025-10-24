@@ -1,0 +1,68 @@
+#write a function that takes an int adds, multiplies by 4, print the result
+def my_fctn(number):
+   number +=2
+   number *=2
+   print(number)
+   return number
+
+def add_ten(number):
+   number+=10
+   return number
+
+
+#starting with the value 10 , add 2, then multiple it by 4. Take the result and add 2 to it , the  multiple by 4 again 
+
+result1= my_fctn(10)
+
+result2= my_fctn(number)
+
+#call the function my_fctn 10 times
+result=10
+for number in range(1,10):
+   result=my_fctn(result)
+print(result)
+
+#write a function that return the product of two arguments.
+
+def product(num1,num2):
+   product=num1 * num2
+   return product
+print(product(3,4))
+
+lyst=['apple','banana',3,False ,4.5, 'grapes'] 
+print(lyst[1])  
+
+#print everything that is not a string
+
+lyst=['apple','banana',3,False ,4.5, 'grapes']
+print(lyst[2:5])
+
+def is_fever(temp):
+    value = float(temp[:-1])   # numeric part
+    unit = temp[-1]            # last character (F or C)
+
+    if unit == "F":
+        return value > 98.6
+    elif unit == "C":
+        return value > 37
+    else:
+        raise ValueError("Invalid temperature unit")
+
+# 2. Boiling checker
+def is_boiling(temp):
+    value = float(temp[:-1])
+    unit = temp[-1]
+
+    if unit == "F":
+        return value >= 212
+    elif unit == "C":
+        return value >= 100
+    else:
+        raise ValueError("Invalid temperature unit")
+
+# 3. Hamming distance
+def hamming_distance(str1, str2):
+    if len(str1) != len(str2):
+        raise ValueError("Strings must be the same length")
+
+    return sum(c1 != c2 for c1, c2 in zip(str1, str2))

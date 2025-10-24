@@ -1,0 +1,121 @@
+#Question 8
+# Def Function name (parameter ,Arguments)
+def pool_time(grade ,time):
+    output = ""
+    
+    if grade == "K":
+        grade = 0
+
+    # any compare , we can only compare the same data type. 
+    if  0 <= int(grade) <= 3:
+        if time == "Morning":
+            output = "The pool opens at 9 AM"
+        elif time == "Afternoon":
+            output = "The pool opens at 1 PM"
+        elif 4>= int(grade) <=8:
+         if time =="Morning":
+            output = "The pool opens at 2 PM"
+         elif 9>= int(grade)  <=12:
+             if time == "Morning":
+              output = "The pool opens at 11 AM" 
+        else:
+           output = "Invalid grade"
+    return output
+
+grade = input("Input Grde:")
+time = input("Input Time:")
+print(f"The pool is :{pool_time(grade,time)}")
+'''
+#Question 11
+def convert_knuts(knuts):
+   output=""
+
+   #how many galleons can x number of knuts buy
+   # 29 * 17 =493
+   sickles = remaining_knuts // 29
+
+   #how many sickle can x number of gallon buy
+   #with the remainder money , how many sickles can i buy?
+
+   #what do i have in remainder for knuts?
+   # 51//29 =1
+   remaining_knuts = remaining_knuts -(sickles*29)
+
+   if galleons > 0:
+      output =f"Galleons: {galleons}"
+   if sickles > 0:
+      output = f"Galleons : {sickles}"
+   if remaining_knuts >0:
+      output 
+      
+      built_count:''
+      vowel_count= 0
+      for letter in word:
+         print(letter,vowel_count,built_count )
+         if letter=='':
+            #add built_word into the list if amount of vowel>2.
+            if vowel_count >=2 :
+               word.append(built_word)
+               built_word='' 
+               vowel_count=''
+               #once we have a full word,lets add it to the list
+            else:
+               built_word += letter
+               if letter in 'aeiou':
+                  vowel_count += 1
+                  
+            if vowel_count >=2
+my_word (peter, )                  
+               
+phonebook= {'matt':5073891438,'ashley':12345}
+print(phonebook)
+
+#to add  to a dictionary , we use name_of_dict [key] =value
+phonebook['waters'] = 789
+print(phonebook)
+
+#to look up a value of aphone , we use name_of _dict[key]
+print(phonebook['matt'] )
+
+for person in phonebook:
+   print(person)
+
+#write a function that takes a strings as an argument, amd returns  a dictionary containing
+# all of the unique words in that string.
+
+def strings_to_dictionary(word):
+   sting_as_list = word .split()
+   word_dictionary ={}
+'''
+
+      #write a function that return a dictionary containing how manu times each letter appears
+def letter_counter(word):
+   letter_dictionary ={}
+   for letter in word :
+      if letter in letter_dictionary ():
+           letter_dictionary[letter] =  letter_dictionary[letter] +1
+        else:
+            
+       letter_dictionary[letter]=1
+   
+   return letter_dictionary
+
+my_word ='peter piper picked a peck of pickled peppers'
+letter_dict =letter_counter(my word)
+
+
+for letter in letter_dict:
+    print(lettre , letter_dict[letter])
+
+#result...
+#d={'p','9','e':???}
+
+    
+   
+   
+   
+
+
+
+
+

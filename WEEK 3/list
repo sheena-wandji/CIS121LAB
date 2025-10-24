@@ -1,0 +1,2 @@
+lyst=['apple','banana','3',false,4.5, 'grapes'] 
+print(lyst[1]) 
